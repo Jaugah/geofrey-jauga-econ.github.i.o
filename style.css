@@ -1,21 +1,81 @@
+/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1f2933;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Content Container */
+body > * {
     max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #222;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
+/* Name Header */
 h1 {
-    color: #003366;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #0b3c5d;
+    font-size: 2.2em;
 }
 
+/* Section Headings */
 h2 {
-    border-bottom: 2px solid #003366;
-    padding-bottom: 5px;
+    margin-top: 40px;
+    color: #0b3c5d;
+    border-bottom: 2px solid #d1d5db;
+    padding-bottom: 6px;
 }
 
+/* Sub-headings */
+h3 {
+    margin-top: 25px;
+    color: #374151;
+}
+
+/* Paragraphs */
+p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 1em;
+}
+
+/* Lists */
 ul {
-    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Links */
+a {
+    color: #0b3c5d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CV Download Link */
+a strong {
+    background-color: #0b3c5d;
+    color: #ffffff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-weight: normal;
+}
+
+/* Contact Section */
+h2 + p {
+    margin-bottom: 30px;
 }
